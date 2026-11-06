@@ -1,0 +1,130 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #E8EDF2;
+    color: #222222;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: #1E293B;
+    padding: 20px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+}
+
+nav a:hover {
+    color: #8FAFCB;
+}
+
+h1 {
+    color: #405D7A;
+    text-align: center;
+}
+
+h2 {
+    color: #2F4F6F;
+}
+
+h3 {
+    color: #52677D;
+}
+
+section {
+    background-color: white;
+    margin: 25px;
+    padding: 30px;
+    border-radius: 8px;
+}
+
+#home {
+    text-align: center;
+    padding: 50px 25px;
+    background-color: #D5E0EA;
+}
+
+#home h1 {
+    color: #1E293B;
+}
+
+#home h2 {
+    color: #405D7A;
+}
+
+#home img {
+    border-radius: 50%;
+    border: 4px solid white;
+}
+
+
+#about p {
+    text-align: center;
+    line-height: 1.8;
+}
+
+#skills ul {
+    line-height: 2;
+}
+
+#projects h2 {
+    color: #405D7A;
+}
+
+#experiences h2 {
+    color: #405D7A;
+}
+
+#contact p {
+    line-height: 1.8;
+}
+
+input, textarea {
+    padding: 10px;
+    border: 1px solid #B8C5D1;
+    border-radius: 5px;
+    font-family: Arial, sans-serif;
+}
+
+input[type="submit"] {
+    background-color: #405D7A;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 12px 20px;
+}
+
+input[type="submit"]:hover {
+    background-color: #2F4358;
+}
+
+input[type="reset"] {
+    background-color: #D5E0EA;
+    color: #222222;
+    border: none;
+    cursor: pointer;
+    padding: 12px 20px;
+}
+
+hr {
+    border: 1px solid #C5D0DA;
+}
+
+footer {
+    background-color: #1E293B;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+section {
+    scroll-margin-top: 20px;
+}
